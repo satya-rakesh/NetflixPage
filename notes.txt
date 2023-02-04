@@ -1,0 +1,59 @@
+
+Words
+=======
+
+HTML + CSS - Static Website
+
+
+1. Static - Fixed - Forever
+
+2. Dynamic - Not fixed  - JavaScript
+
+3. Browser - The software we use to visit websites.
+   
+	 ex:- Chrome, Mozilla, IE, Safari
+
+4. window - It's a variable which stores all the information about the open tab.
+
+5. Variable - storage area
+
+6. Listeners - A job which you are scheduling to perform in future
+
+7. Event - an action being performed by user
+    DOMContentLoaded
+    click
+    hover
+    scroll
+    onBtnPress
+
+
+8. Function
+    A group of statements will be executed when you called
+    
+	//declaration
+       
+		 function anyName(){
+            1.
+            2.
+            3.
+        }
+    
+	//calling
+       
+		 anyName();
+        
+		 anyName();
+        
+		 anyName();
+        
+		 anyName();
+
+9. JSON
+
+Goals
+======
+
+1. On landing - I would like to view the movies on each section - Reached
+
+2. On clicking search - I would like to view that movie on screen - Search
+

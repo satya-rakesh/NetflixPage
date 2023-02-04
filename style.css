@@ -1,0 +1,77 @@
+/* CSS VARIABLES */
+:root {
+  --primary: #141414;
+  --light: #F3F3F3;
+  --dark: 	#686868;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+  color: var(--light);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+
+/* HEADER */
+header {
+  padding: 20px 20px 0 20px;
+  position: fixed;
+  top: 0;
+  background-color: var(--primary);
+  width: 100%;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+
+.main-nav a {
+  color: var(--light);
+  text-decoration: none;
+  margin: 5px;  
+}
+
+.main-nav a:hover {
+  color: var(--dark);
+}
+
+.sub-nav {
+    display: flex;
+    align-items: center;
+}
+
+.sub-nav a {
+  color: var(--light);
+  text-decoration: none;
+  margin: 5px;
+}
+
+.sub-nav a:hover {
+  color: var(--dark);
+}
+
+
+/* MAIN CONTIANER */
+.main-container {
+  padding: 50px;
+  margin-top: 100px;
+}
+
+
+.row a {
+  transition: transform .3s;  
+}
+
+.row a:hover {
+  transition: transform .3s;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);  
+  transform: scale(1.1);
+}
+
+
